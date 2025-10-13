@@ -1,0 +1,124 @@
+.homepage-dark {
+    background: linear-gradient(180deg, #0b1221 0%, #090f1c 100%);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .ev-navbar {
+    background-color: #0d1628 !important;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+  }
+  
+  .hero-section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+  }
+  .hero-title span {
+    color: #00c4ff;
+  }
+  
+  .hero-desc {
+    font-size: 1.1rem;
+    color: #b8c2cc;
+    max-width: 90%;
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+  }
+  
+  .btn-glow {
+    background: linear-gradient(90deg, #00c4ff, #7b61ff);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+  }
+  .btn-glow:hover {
+    box-shadow: 0 0 20px #00c4ff;
+    transform: translateY(-2px);
+  }
+  
+  .btn-outline-glow {
+    border: 2px solid #00c4ff;
+    color: #00c4ff;
+    border-radius: 50px;
+    padding: 12px 24px;
+    transition: 0.3s;
+  }
+  .btn-outline-glow:hover {
+    background: #00c4ff;
+    color: #0b1221;
+  }
+  
+  .hero-stats h5 {
+    color: #00c4ff;
+    font-weight: 700;
+  }
+  
+  .analytics-section {
+    padding: 80px 0;
+  }
+  
+  .analytics-card {
+    background-color: #121b2f;
+    border: 1px solid rgba(0, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 25px 10px;
+    transition: 0.3s;
+  }
+  .analytics-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  }
+  
+  .products-section {
+    padding: 80px 0;
+  }
+  
+  .vehicle-card {
+    background-color: #121b2f;
+    border: 1px solid rgba(0, 255, 255, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .vehicle-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+  }
+  
+  .vehicle-img {
+    position: relative;
+  }
+  .vehicle-img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  .badge-new {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(90deg, #00c4ff, #7b61ff);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+  }
+  
+  .ev-footer {
+    background-color: #0b1221;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
