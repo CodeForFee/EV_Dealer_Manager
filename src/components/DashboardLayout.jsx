@@ -47,6 +47,9 @@ const DashboardLayout = ({ children }) => {
           { label: 'Quản lý tồn kho', icon: '📦', path: '/dashboard/inventory' },
           { label: 'Quản lý đại lý', icon: '🏢', path: '/dashboard/dealers' },
           { label: 'Đơn đặt hàng', icon: '📋', path: '/dashboard/orders' },
+          { label: 'Quản lý giá sỉ', icon: '💰', path: '/dashboard/pricing' },
+          { label: 'Quản lý khuyến mãi', icon: '🎁', path: '/dashboard/promotions' },
+          { label: 'Quản lý công nợ', icon: '💳', path: '/dashboard/debt-management' },
           { label: 'Báo cáo sản phẩm', icon: '📊', path: '/dashboard/reports' }
         ]
       case 'dealer_manager':
@@ -56,7 +59,8 @@ const DashboardLayout = ({ children }) => {
           { label: 'Quản lý khách hàng', icon: '👥', path: '/dashboard/customers' },
           { label: 'Quản lý nhân viên', icon: '👨‍💼', path: '/dashboard/staff' },
           { label: 'Báo cáo doanh thu', icon: '📊', path: '/dashboard/reports' },
-          { label: 'Quản lý tồn kho', icon: '📦', path: '/dashboard/inventory' }
+          { label: 'Quản lý tồn kho', icon: '📦', path: '/dashboard/inventory' },
+          { label: 'Báo cáo công nợ', icon: '💳', path: '/dashboard/debt-reports' }
         ]
       case 'dealer_staff':
         return [
@@ -65,6 +69,9 @@ const DashboardLayout = ({ children }) => {
           { label: 'Khách hàng', icon: '👥', path: '/dashboard/customers' },
           { label: 'Sản phẩm', icon: '🚗', path: '/dashboard/vehicles' },
           { label: 'Lịch hẹn lái thử', icon: '🚙', path: '/dashboard/test-drives' },
+          { label: 'Quản lý khuyến mãi', icon: '🎁', path: '/dashboard/promotions' },
+          { label: 'Đặt xe từ hãng', icon: '🚚', path: '/dashboard/vehicle-orders' },
+          { label: 'Phản hồi & Khiếu nại', icon: '💬', path: '/dashboard/feedback' },
           { label: 'Báo cáo cá nhân', icon: '📊', path: '/dashboard/reports' }
         ]
       default:

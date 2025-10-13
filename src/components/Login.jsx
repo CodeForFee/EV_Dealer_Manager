@@ -138,7 +138,7 @@ const Login = () => {
 
                 <Form onSubmit={handleSubmit}>
                   <Form.Group className="mb-3">
-                    <Form.Label style={{ color: '#E5E7EB' }}>Email Address</Form.Label>
+                    <Form.Label style={{ color: '#E5E7EB' }}>Username</Form.Label>
                     <div className="input-group">
                       <span className="input-group-text" style={{ backgroundColor: '#2D3A47', border: '1px solid #404D5C' }}>📧</span>
                       <Form.Control

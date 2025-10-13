@@ -1,0 +1,94 @@
+.inventory-dashboard {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  .dashboard-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+  }
+  
+  .stat-card {
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0;
+  }
+  
+  .stat-card.blue { background: linear-gradient(135deg, #1e3a8a, #3b82f6); }
+  .stat-card.green { background: linear-gradient(135deg, #047857, #10b981); }
+  .stat-card.yellow { background: linear-gradient(135deg, #b45309, #fbbf24); }
+  .stat-card.red { background: linear-gradient(135deg, #991b1b, #ef4444); }
+  
+  .stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  
+  .table-card {
+    background: #1e293b;
+    border: none;
+    border-radius: 14px;
+  }
+  
+  .table-card .card-header {
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
+    color: #e2e8f0;
+  }
+  
+  .inventory-table th {
+    color: #94a3b8;
+    border-bottom: 1px solid #334155;
+  }
+  
+  .inventory-table td {
+    color: #e2e8f0;
+    vertical-align: middle;
+  }
+  
+  .sku-link {
+    color: #60a5fa;
+    text-decoration: none;
+  }
+  
+  .gradient-btn {
+    background: linear-gradient(90deg, #6366f1, #3b82f6);
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  
+  .gradient-btn:hover {
+    background: linear-gradient(90deg, #4f46e5, #2563eb);
+    color: #fff;
+  }
+  
+  .modal-content {
+    background: #1e293b;
+    color: #e2e8f0;
+  }
+  
+  .modal-header, .modal-footer {
+    border-color: #334155;
+  }
+  

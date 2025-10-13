@@ -6,6 +6,9 @@ import OrderManagement from './evm/OrderManagement'
 import VehicleManagement from './evm/VehicleManagement'
 import DealerManagement from './evm/DealerManagement'
 import ProductReports from './evm/ProductReports'
+import PricingManagement from './evm/PricingManagement'
+import PromotionManagement from './evm/PromotionManagement'
+import DebtManagement from './evm/DebtManagement'
 import Profile from '../Profile'
 
 const EVMStaffDashboard = () => {
@@ -20,6 +23,9 @@ const EVMStaffDashboard = () => {
         <Route path="/dealers" element={<DealerManagement />} />
         <Route path="/orders" element={<OrderManagement />} />
         <Route path="/reports" element={<ProductReports />} />
+        <Route path="/pricing" element={<PricingManagement />} />
+        <Route path="/promotions" element={<PromotionManagement />} />
+        <Route path="/debt-management" element={<DebtManagement />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
     )

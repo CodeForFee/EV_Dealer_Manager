@@ -6,6 +6,9 @@ import TestDrives from './staff/TestDrives'
 import Customers from './staff/Customers'
 import Products from './staff/Products'
 import PersonalReports from './staff/PersonalReports'
+import Promotions from './staff/Promotions'
+import VehicleOrders from './staff/VehicleOrders'
+import FeedbackManagement from './staff/FeedbackManagement'
 import Profile from '../Profile'
 
 const DealerStaffDashboard = () => {
@@ -18,8 +21,11 @@ const DealerStaffDashboard = () => {
         <Route path="/sales" element={<Sales />} />
         <Route path="/test-drives" element={<TestDrives />} />
         <Route path="/customers" element={<Customers />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/vehicles" element={<Products />} />
         <Route path="/reports" element={<PersonalReports />} />
+        <Route path="/promotions" element={<Promotions />} />
+        <Route path="/vehicle-orders" element={<VehicleOrders />} />
+        <Route path="/feedback" element={<FeedbackManagement />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
     )

@@ -6,6 +6,7 @@ import CustomerManagement from './dealer/CustomerManagement'
 import StaffManagement from './dealer/StaffManagement'
 import RevenueReports from './dealer/RevenueReports'
 import InventoryManagement from './dealer/InventoryManagement'
+import DebtReports from './dealer/DebtReports'
 import Profile from '../Profile'
 
 const DealerManagerDashboard = () => {
@@ -20,6 +21,7 @@ const DealerManagerDashboard = () => {
         <Route path="/staff" element={<StaffManagement />} />
         <Route path="/reports" element={<RevenueReports />} />
         <Route path="/inventory" element={<InventoryManagement />} />
+        <Route path="/debt-reports" element={<DebtReports />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
     )
