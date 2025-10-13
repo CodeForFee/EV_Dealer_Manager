@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { Row, Col, Card, Table, Button, Modal, Form, Badge, Alert, ProgressBar } from 'react-bootstrap'
+import { Container, Row, Col, Card, Table, Button, Modal, Form, Badge, Alert, ProgressBar } from 'react-bootstrap'
 import { mockInventory, mockVehicles, mockDealers } from '../../../data/mockData'
+import '../../../Homepage.css'
 
 const InventoryManagement = () => {
   const [inventory, setInventory] = useState(mockInventory)
